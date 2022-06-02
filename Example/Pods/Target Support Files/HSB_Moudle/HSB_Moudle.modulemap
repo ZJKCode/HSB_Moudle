@@ -1,0 +1,6 @@
+framework module HSB_Moudle {
+  umbrella header "HSB_Moudle-umbrella.h"
+
+  export *
+  module * { export * }
+}

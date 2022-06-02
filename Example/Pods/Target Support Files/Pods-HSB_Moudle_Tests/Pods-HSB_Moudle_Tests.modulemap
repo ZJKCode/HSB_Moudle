@@ -1,0 +1,6 @@
+framework module Pods_HSB_Moudle_Tests {
+  umbrella header "Pods-HSB_Moudle_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

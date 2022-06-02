@@ -1,0 +1,29 @@
+PODS:
+  - HSB_Moudle (0.1.0):
+    - HSRouter
+    - SnapKit
+  - HSRouter (0.1.0)
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - HSB_Moudle (from `../`)
+  - HSRouter (from `../../HSRouter`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  HSB_Moudle:
+    :path: "../"
+  HSRouter:
+    :path: "../../HSRouter"
+
+SPEC CHECKSUMS:
+  HSB_Moudle: 96db36349ccf530d31ecabef6838c4c8bf152ea8
+  HSRouter: 9f60e259830aab0f54375813590a18fda7f9492a
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: 7bf12ceabc9394e6d6743c2475360716d486610a
+
+COCOAPODS: 1.11.2

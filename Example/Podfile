@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'HSB_Moudle_Example' do
+  pod 'HSB_Moudle', :path => '../'
+  pod 'HSRouter',:path => '../../HSRouter'
+  target 'HSB_Moudle_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
